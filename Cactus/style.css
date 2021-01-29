@@ -1,0 +1,295 @@
+body {
+    margin: 0px;
+    background-color: #d3ffce;
+}
+
+.container {
+    width: 100vh;
+    height: 60vw;
+    margin:auto;
+    margin-top: 70px;
+}
+
+.container div {
+    margin: auto;
+}
+
+.body {
+    width: 73px;
+    height: 160px;
+    border: 1px solid olivedrab;
+    border-bottom-color: transparent;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+    background-color: olivedrab;
+    box-shadow: 0px -1px 22px olivedrab;
+}
+
+.eye-one, .eye-two {
+    width: 10px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 100%;
+    background-color: black;
+    box-shadow: 0px 0px 1px black;
+}
+
+.container:hover .white-circle1 {
+    left: 2px;
+}
+.container:hover .white-circle2 {
+    top: 6px;
+    right: -1px;
+}
+
+.eye-one {
+    position:relative;
+        top: 44px;
+        right: 18px;
+}
+
+.eye-one .white-circle1 {
+    position: relative;
+        top: 6px;
+        right: 2px;
+    box-shadow: 0px 0px 3px white;
+}
+
+.white-circle1, .white-circle2 {
+    width: 2px;
+    height: 2px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.eye-two {
+    position:relative;
+        top: 22px;
+        left: 17px;
+}
+
+.eye-two .white-circle2 {
+    position: relative;
+        top: 7px;
+        right: 2px;
+    box-shadow: 0px 0px 3px white;
+}
+.smile {
+    position: relative;
+        top:13px;
+    width: 17px;
+    height: 15px;
+    border-bottom: 2px solid black;
+    border-radius: 45%;
+}
+
+.container:hover .smile {
+    border-bottom: 12px solid black;
+}
+
+.needle1, .needle2, .needle3, .needle4, .needle5, .needle6 {
+    width: 2px;
+    height: 10px;
+    background-color: #5a5a19;
+} 
+
+
+.container:hover .needle1 {
+    background-color: #246b2f;
+}
+.container:hover .needle2 {
+    background-color: #246b2f;
+}
+.container:hover .needle3 {
+    background-color: #246b2f;
+}
+.container:hover .needle4 {
+    background-color: #246b2f;
+}
+.container:hover .needle5 {
+    background-color: #246b2f;
+}
+.container:hover .needle6 {
+    background-color: #246b2f;
+}
+.container:hover .needle7 {
+    background-color: #246b2f;
+}
+.container:hover .needle8 {
+    background-color: #246b2f;
+}
+.container:hover .needle9 {
+    background-color: #246b2f;
+}
+.container:hover .needle10 {
+    background-color: #246b2f;
+}
+.container:hover .needle11 {
+    background-color: #246b2f;
+}
+.container:hover .needle12 {
+    background-color: #246b2f;
+}
+.container:hover .needle13 {
+    background-color: #246b2f;
+}
+.container:hover .needle14 {
+    background-color: #246b2f;
+}
+.container:hover .needle15 {
+    background-color: #246b2f;
+}
+.container:hover .needle16 {
+    background-color: #246b2f;
+}
+.container:hover .needle17 {
+    background-color: #246b2f;
+}
+.container:hover .needle18 {
+    background-color: #246b2f;
+} 
+
+.needle1 {
+    position:relative;
+    bottom: 289px;
+    transform:rotate(12deg);
+}
+.needle2 {
+    position:relative;
+    bottom: 242px;
+    left: 40px;
+    transform:rotate(49deg);
+}
+.needle3 {
+    position:relative;
+    bottom: 207px;
+    right: 39px;
+    transform:rotate(121deg);
+}
+.needle4 {
+    position:relative;
+    bottom: 167px;
+    left: 39px;
+    transform:rotate(83deg);
+}
+.needle5 {
+    position:relative;
+    bottom: 204px;
+    transform:rotate(16deg);
+}
+.needle6 {
+    position:relative;
+    bottom: 312px;
+    right: -12px;
+    transform:rotate(162deg);
+}
+
+.needle7, .needle8, .needle9, .needle10, .needle11, .needle12 {
+    width: 2px;
+    height: 15px;
+    background-color: rgb(90, 90, 25);
+} 
+
+.needle7 {
+    position:relative;
+    bottom: 317px;
+    right: 35px;
+    transform:rotate(139deg);
+}
+.needle8 {
+    position:relative;
+    bottom: 257px;
+    left: 31px;
+    transform: rotate(23deg);
+}
+.needle9 {
+    position:relative;
+    bottom: 240px;
+    right: 32px;
+    transform:rotate(99deg);
+}
+.needle10 {
+    position:relative;
+    bottom: 241px;
+    transform:rotate(75deg);
+}
+.needle11 {
+    position:relative;
+    bottom: 328px;
+    left: 35px;
+    transform:rotate(75deg);
+}
+.needle12 {
+    position:relative;
+    bottom: 284px;
+    left: 40px;
+    transform:rotate(55deg);
+}
+
+
+.needle13, .needle14, .needle15, .needle16, .needle17, .needle18 {
+    width: 2px;
+    height: 25px;
+    background-color: rgb(90, 90, 25);
+} 
+
+.needle13 {
+    position:relative;
+    bottom: 413px;
+    left: 37px;
+    transform:rotate(39deg);
+}
+.needle14 {
+    position:relative;
+    bottom: 466px;
+    right: 9px;
+    transform: rotate(168deg);
+}
+.needle15 {
+    position:relative;
+    bottom: 404px;
+    right: 37px;
+    transform:rotate(142deg);
+}
+.needle16 {
+    position:relative;
+    bottom: 412px;
+    right: 20px;
+    transform: rotate(-12deg);
+}
+.needle17 {
+    position:relative;
+    bottom: 424px;
+    left: 38px;
+    transform:rotate(68deg);
+}
+.needle18 {
+    position:relative;
+    bottom: 528px;
+    right: 43px;
+    transform:rotate(114deg);
+}
+
+.flower-pot1 {
+    width: 95px;
+    height: 30px;
+    border: 1px solid sienna;
+    border-bottom-left-radius: 12%;
+    border-bottom-right-radius: 12%;
+    background-color: sienna;
+    box-shadow: 0px 0px 2px sienna;
+}
+
+.flower-pot2 {
+    width: 80px;
+    height: 85px;
+    border: 1px solid saddlebrown;
+    border-top-color: transparent;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    background-color: saddlebrown;
+    box-shadow: 0px 0px 2px saddlebrown;
+}
